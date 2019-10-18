@@ -43,7 +43,7 @@
     water.columnMargin = 10;
     water.rowMargin = 10;
     water.edgeInsets = UIEdgeInsetsMake(0, 15, 0, 15);
-    water.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+//    water.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
     self.ctV = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, 375, 667 - 64 - 49) collectionViewLayout:water];
     self.ctV.dataSource = self;
